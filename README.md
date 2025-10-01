@@ -56,4 +56,46 @@ Complete all the exercises in this assignment and push your code to GitHub using
 
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
-- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/)
+
+  # HOW TO RUN MY REPO
+  ## Clone the Repository
+
+  ```
+  git clone <YOUR_REPO_URL>
+  cd <YOUR_REPO_NAME>
+  ```
+  ##Dependencies
+  - make sure you have mongodb package is installed (npm install mongodb)
+  ``` bash
+  npm install
+  ```
+  ## Insert Sample Data
+  ``` bash
+  node insert_books.js
+  ```
+
+  ## Run Queries
+  ``` bash
+  node queries.js
+  ```
+  This will execute all queries including:
+
+    - CRUD operations
+
+    - Advanced queries (filtering, projection, sorting, pagination)
+
+    - Aggregation pipelines (average price, most prolific author, decade grouping)
+
+    - Index creation and performance explanation
+  # ✅ Outcome
+
+  After running the scripts, you will have:
+
+    - A functioning MongoDB database with a books collection
+
+    - Sample documents for testing queries
+
+    - Queries demonstrating CRUD, filtering, sorting, projection, aggregation, and indexing
+
+    - Verified performance improvements using indexes
